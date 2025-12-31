@@ -1,0 +1,4 @@
+project_id = "crofpyllgyhzqysfgfey"
+
+[functions.gentle-ai]
+verify_jwt = true

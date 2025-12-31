@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* dearme — a digital journaling sanctuary */
+
+@layer base {
+  :root {
+    --background: 350 30% 97%;
+    --foreground: 25 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 25 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 25 15% 15%;
+
+    --primary: 340 65% 47%;
+    --primary-foreground: 350 30% 98%;
+
+    --secondary: 25 25% 35%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 350 20% 92%;
+    --muted-foreground: 25 10% 45%;
+
+    --accent: 350 45% 94%;
+    --accent-foreground: 340 65% 42%;
+
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 85% 97%;
+
+    --border: 350 15% 88%;
+    --input: 350 15% 88%;
+    --ring: 340 65% 47%;
+
+    --radius: 1.25rem;
+
+    --warm: 25 25% 35%;
+    --warm-foreground: 0 0% 100%;
+
+    --chart-1: 340 65% 60%;
+    --chart-2: 350 50% 70%;
+    --chart-3: 25 30% 50%;
+    --chart-4: 340 45% 75%;
+    --chart-5: 25 15% 40%;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 25 15% 15%;
+    --sidebar-primary: 340 65% 47%;
+    --sidebar-primary-foreground: 350 30% 98%;
+    --sidebar-accent: 350 45% 94%;
+    --sidebar-accent-foreground: 340 65% 42%;
+    --sidebar-border: 350 15% 88%;
+    --sidebar-ring: 340 65% 47%;
+  }
+
+  .dark {
+    --background: 25 10% 8%;
+    --foreground: 350 20% 95%;
+
+    --card: 25 10% 12%;
+    --card-foreground: 350 20% 95%;
+
+    --popover: 25 10% 12%;
+    --popover-foreground: 350 20% 95%;
+
+    --primary: 340 55% 65%;
+    --primary-foreground: 25 10% 8%;
+
+    --secondary: 25 15% 25%;
+    --secondary-foreground: 350 20% 95%;
+
+    --muted: 25 10% 18%;
+    --muted-foreground: 350 15% 65%;
+
+    --accent: 340 30% 18%;
+    --accent-foreground: 340 55% 70%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 85% 97%;
+
+    --border: 25 10% 20%;
+    --input: 25 10% 20%;
+    --ring: 340 55% 65%;
+
+    --warm: 25 20% 45%;
+    --warm-foreground: 350 20% 95%;
+
+    --sidebar-background: 25 10% 10%;
+    --sidebar-foreground: 350 20% 95%;
+    --sidebar-primary: 340 55% 65%;
+    --sidebar-primary-foreground: 25 10% 8%;
+    --sidebar-accent: 340 30% 18%;
+    --sidebar-accent-foreground: 340 55% 70%;
+    --sidebar-border: 25 10% 20%;
+    --sidebar-ring: 340 55% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary via-accent-foreground to-primary bg-clip-text text-transparent;
+  }
+
+  .glass {
+    @apply bg-card/80 backdrop-blur-md;
+  }
+
+  .soft-shadow {
+    box-shadow: 0 4px 20px -4px hsl(var(--primary) / 0.15);
+  }
+
+  .gentle-glow {
+    box-shadow: 0 0 30px -10px hsl(var(--primary) / 0.3);
+  }
+}
