@@ -60,7 +60,7 @@ const Index = () => {
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto mb-10 leading-relaxed">
-              A digital journal that listens, grows, and holds space for your emotions 
+              A digital journal that listens, grows, and holds space for your emotions
               without judgment, pressure, or performance.
             </p>
             
@@ -84,7 +84,7 @@ const Index = () => {
               A sanctuary for your soul
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              dearme is designed to help you explore your emotions, dreams, and growth 
+              dearme is designed to help you explore your emotions, dreams, and growth
               at your own pace, in your own way.
             </p>
           </div>
@@ -114,7 +114,7 @@ const Index = () => {
             Your story matters
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto mb-8">
-            This is not about productivity. This is about you — your feelings, 
+            This is not about productivity. This is about you — your feelings,
             your dreams, your beautiful, messy, evolving self.
           </p>
           <Button variant="hero" size="xl" asChild>
