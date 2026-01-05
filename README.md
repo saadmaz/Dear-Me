@@ -1,61 +1,255 @@
-# Welcome to your Lovable project
+# 🌸 dearme
 
-## Project info
+**dearme** is a digital journaling sanctuary designed to help girls slow down, feel safe, and gently understand themselves.
+It is not a productivity app.
+It is not a streak-based habit tracker.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+It is a *soft place* to land.
 
-## How can I edit this code?
+🌐 **Live Deployment:**
+👉 [https://dearme.rmccreations.com](https://dearme.rmccreations.com)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🧠 Philosophy
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+> “I don’t need to write today.”
+> **“I want to come here.”**
 
-Changes made via Lovable will be committed automatically to this repo.
+dearme was created to reimagine journaling for the digital age — blending emotional intelligence, creativity, privacy, and gentle AI support into one deeply personal experience.
 
-**Use your preferred IDE**
+This platform prioritizes:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* Emotional safety
+* Self-compassion over self-optimization
+* Expression over performance
+* Privacy over virality
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## ✨ Core Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🌸 Emotional Intelligence & Self-Discovery
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Tools that help users *understand themselves*, not just record days.
 
-# Step 3: Install the necessary dependencies.
-npm i
+* **Emotion Mapping**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+  * Interactive mood wheel (multi-emotion selection)
+  * Emotion trends over time
+* **“Why I Felt This Way” Prompts**
+
+  * Gentle reflection questions
+  * Emotional trigger awareness
+* **Inner Dialogue Pages**
+
+  * Two-column journaling:
+
+    * What I’m telling myself
+    * What I’d say to a friend
+* **Comfort Mode 🫂**
+
+  * Activates during low moods
+  * Soft UI, grounding exercises & affirmations
+
+---
+
+### 🌙 Dream, Sleep & Subconscious
+
+A calm space for deeper reflection.
+
+* **Dream Decoder**
+
+  * Dream journaling with symbol tagging
+  * Optional AI insights (non-judgmental)
+* **Sleep-to-Mood Correlation**
+
+  * Track sleep quality
+  * Visual mood correlations
+
+---
+
+### ✨ Creativity & Expression
+
+For girls who feel deeply and express visually.
+
+* **Outfit & Aesthetic Diary**
+
+  * Outfit photos
+  * Mood & confidence tracking
+* **Lyrics & Quote Vault**
+
+  * Save lyrics, quotes, moments
+* **Digital Scrapbook**
+
+  * Stickers, polaroids, washi tapes
+  * Drag-and-drop canvas
+
+---
+
+### 🌱 Growth, Goals & Glow-Ups
+
+No pressure. No deadlines.
+
+* **Soft Goals**
+
+  * Emotion-based goals (e.g., “Feel calmer”)
+* **Monthly Glow-Up Check-In**
+
+  * Reflection-based progress
+* **Confidence Tracker**
+
+  * Daily confidence rating with context
+
+---
+
+### 💌 Relationships & Memories
+
+For processing connection and closure.
+
+* **People Pages**
+
+  * Memories, boundaries, gratitude
+* **Letters You’ll Never Send**
+
+  * Private emotional release
+  * Lock, archive, or symbolic “burn”
+
+---
+
+### 🧠 AI-Powered (Gentle & Respectful)
+
+AI that listens — not judges.
+
+* **Weekly Reflection Summaries**
+* **Personalized Prompts**
+* **Growth Timeline**
+
+  * Highlights emotional milestones over time
+
+---
+
+### 🔐 Safety, Privacy & Trust
+
+Non-negotiable.
+
+* **Panic Lock**
+
+  * One-tap content hiding
+  * Decoy safe mode
+* **Offline-Only Entries**
+
+  * Local-only journaling
+  * Never synced or processed
+
+---
+
+### 🎀 Delight Features
+
+Small things that make users *want* to return.
+
+* **Digital Companion**
+
+  * Grows with journaling habits
+* **Seasonal Aesthetics**
+
+  * UI themes change with seasons
+* **Secret Achievements**
+
+  * Emotion-based, hidden rewards
+
+---
+
+## 🔐 Authentication
+
+All journaling features are available **only after login**.
+
+### Default Test Credentials
+
+```
+Email: hello@test.com
+Password: 12345678
 ```
 
-**Edit a file directly in GitHub**
+> These credentials are provided for demo and testing purposes.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🎨 Design System
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Color Palette
 
-## What technologies are used for this project?
+* **Primary Highlight:** Dark Pink
+* **Background:** Light Pastel Pink
+* **Supporting Colors:** Brown, Black, White
 
-This project is built with:
+### UI Principles
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* Soft shadows
+* Rounded corners
+* Gentle transitions
+* Minimal but emotionally rich layouts
+
+---
+
+## 📄 Pages Overview
+
+### Public Pages
+
+* **Home**
+* **About Us**
+* **Founder**
+* **Contact**
+* **Newsletter Signup**
+
+### Authenticated Pages
+
+* **Dear Me** (Core journaling experience)
+
+---
+
+## 👩‍💼 Founder
+
+**Hello, I am Rachel.**
+
+dearme was born from a personal need for a space that felt private, gentle, and emotionally safe. Rachel envisioned a journal that doesn’t demand consistency or perfection — only honesty.
+
+This platform reflects her belief that:
+
+> Healing doesn’t have to be loud.
+> Growth doesn’t have to be tracked.
+> And feelings don’t need fixing — only space.
+
+---
+
+## 📬 Contact & Newsletter
+
+* Support & inquiries via Contact Page
+* Newsletter offers:
+
+  * Gentle reflections
+  * Emotional prompts
+  * Letters for your inner world
+
+> “We read every message with care.”
+
+---
+
+## 🛠️ Tech Notes (Optional / Extendable)
+
+* Authentication-gated feature access
+* Emotion-based UI rendering
+* Privacy-first architecture
+* Designed for extensibility (mobile app, AI expansion)
+
+---
+
+## 🌷 Final Note
+
+**dearme** exists to remind users that:
+
+* They are allowed to feel
+* They don’t need to be productive to be worthy
+* Their inner world matters
+
+If you’re here — welcome home 🤍
