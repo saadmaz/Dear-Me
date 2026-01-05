@@ -114,8 +114,8 @@ const Index = () => {
             Your story matters
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto mb-8">
-            This is not about productivity. This is about you — your feelings,
-            your dreams, your beautiful, messy, evolving self.
+            This is not about productivity. This is about you!
+            Your feelings, your dreams, your beautiful, messy, evolving self.
           </p>
           <Button variant="hero" size="xl" asChild>
             <Link to="/auth?signup=true">Start Journaling Free</Link>
