@@ -56,11 +56,11 @@ const Index = () => {
             
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-tight mb-6">
               Dear me,<br />
-              <span className="text-primary">this is where I come to feel safe.</span>
+              <span className="text-primary">This is where I come to feel safe.</span>
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto mb-10 leading-relaxed">
-              A digital journal that listens, grows, and holds space for your emotions — 
+              A digital journal that listens, grows, and holds space for your emotions 
               without judgment, pressure, or performance.
             </p>
             
@@ -84,7 +84,7 @@ const Index = () => {
               A sanctuary for your soul
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              dearme is designed to help you explore your emotions, dreams, and growth — 
+              dearme is designed to help you explore your emotions, dreams, and growth 
               at your own pace, in your own way.
             </p>
           </div>
