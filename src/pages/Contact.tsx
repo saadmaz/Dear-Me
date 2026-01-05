@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -53,7 +53,7 @@ const Contact = () => {
       } else {
         // Error handling if Formspree rejects the request
         const data = await response.json();
-        if (Object.hasOwn(data, 'errors')) {
+        if (Object.prototype.hasOwnProperty.call(data, 'errors')) {
             toast({
                 title: "Error sending message",
                 description: data.errors.map((error: any) => error.message).join(", "),
