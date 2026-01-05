@@ -26,7 +26,7 @@ const Header = () => {
             className="flex items-center gap-2 text-xl font-serif font-semibold text-foreground hover:text-primary transition-colors"
           >
             <Heart className="w-5 h-5 text-primary fill-primary/20" />
-            <span>dearme</span>
+            <span>Dearme</span>
           </Link>
 
           {/* Desktop Navigation */}

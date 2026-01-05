@@ -31,7 +31,7 @@ const Footer = () => {
           
           {/* --- Combined Copyright & Credit Section --- */}
           <p className="text-sm text-muted-foreground text-center">
-            © 2024 dearme. Designed & Developed by{" "}
+            © 2026 dearme. Designed & Developed by{" "}
             
             {/* The External Link to your Portfolio:
               - target="_blank": Opens the link in a new tab.
